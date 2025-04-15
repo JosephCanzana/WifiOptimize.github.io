@@ -8,3 +8,44 @@ body {
     cursor: not-allowed;
   }
   
+  .small-link {
+    max-width: 100%;
+    word-break: break-word;
+    font-size: 0.9rem;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.75rem;
+    }
+  
+    .btn-lg {
+      font-size: 1rem;
+      padding: 0.75rem 2rem;
+    }
+  
+    .small-link {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .fs-5 {
+      font-size: 1rem !important;
+    }
+  
+    .btn-lg {
+      font-size: 0.9rem;
+      padding: 0.6rem 1.5rem;
+    }
+  
+    video {
+      max-height: 240px;
+    }
+  }
+  
